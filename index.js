@@ -7,7 +7,7 @@ const client = new Client({
 });
  
 client.once('ready', () => {  
-  console.log(`✅ Bot está online como ${client.user.tag}`);
+  console.log(`✅ Bot está online como ${client.user.tag}`); 
 }); 
 
 function obterHoraAtual() {
