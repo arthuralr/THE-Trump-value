@@ -6,7 +6,7 @@ const client = new Client({
   intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent],
 });
 
-client.once('ready', () => { 
+client.once('ready', () => {  
   console.log(`✅ Bot está online como ${client.user.tag}`);
 }); 
 
