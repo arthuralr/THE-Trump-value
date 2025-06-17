@@ -11,7 +11,7 @@ client.once('ready', () => {
 });
 
 function obterHoraAtual() {
-  const data = new Date();
+  const data = new Date(); 
   const horas = String(data.getHours()).padStart(2, '0');
   const minutos = String(data.getMinutes()).padStart(2, '0');
   const segundos = String(data.getSeconds()).padStart(2, '0');
