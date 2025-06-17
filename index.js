@@ -1,4 +1,4 @@
-require('dotenv').config(); 
+require('dotenv').config();  
 const { Client, GatewayIntentBits } = require('discord.js');
 const fetch = require('node-fetch'); // Certifique-se de que está usando node-fetch v2 ou v3 conforme sua versão do Node.js
 
