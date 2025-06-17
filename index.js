@@ -5,7 +5,7 @@ const fetch = require('node-fetch'); // Certifique-se de que está usando node-f
 const client = new Client({  
   intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent],
 });
-
+ 
 client.once('ready', () => {  
   console.log(`✅ Bot está online como ${client.user.tag}`);
 }); 
