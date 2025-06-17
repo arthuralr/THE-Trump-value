@@ -9,7 +9,7 @@ const client = new Client({
 client.once('ready', () => {  
   console.log(`✅ Bot está online como ${client.user.tag}`); 
 }); 
-
+ 
 function obterHoraAtual() {
   const data = new Date(); 
   const horas = String(data.getHours()).padStart(2, '0');
